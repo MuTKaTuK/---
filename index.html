@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сапер by Глухарь</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <link rel="shortcut icon" href="images/logo.svg">
+</head>
+
+<body>
+    <div class="col-left">    
+        <div class="settings">
+            <fieldset>
+                <input type="radio" id="easy" name="difficulty" value="0.1" class="difficulty">
+                <label for="easy">Легко</label> 
+                <input type="radio" id="normal" name="difficulty" value="0.2" class="difficulty" checked>
+                <label for="normal">Нормально</label>
+                <input type="radio" id="hard" name="difficulty" value="0.4" class="difficulty">
+                <label for="hard">Сложно</label> 
+            </fieldset>
+        </div>     
+    </div>
+    <div class="col-right">
+        <a href="home.html" class="main"></a>
+        <a href="home.html"><img src="images/home.svg" class="iconhome"></a>
+        <a href="#!" class="minesweeper-btn">Новая игра</a>
+    </div>
+    <div class="board-wrap">
+        <div class="board"></div>
+    </div>
+    <div class="endscreen"></div>
+    
+</body>
+<script src="script.js"></script>
+</html>

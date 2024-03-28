@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background: #191919;
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    cursor: url('../images/cursor.png') 10 10, auto;
+}
+
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.bg {
+    position: absolute;
+    width: 260vw;
+    opacity: 100%;
+}

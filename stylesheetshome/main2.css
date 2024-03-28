@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+    background: #191919;
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    cursor: url('../images/cursor.png') 10 10, auto;
+}
+
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.bg {
+    position: absolute;
+    width: 260vw;
+    opacity: 100%;
+}
+
+.everything {
+    top: -8vw;
+    left: -5vw;
+}
+
+.first {
+    top: 2vw;
+}
+
+.logo {
+    width: 10vw;
+    top: 27vw;
+    left: 40vw;
+}
+
+.tetx {
+    top: 20vw;
+    left: 52vw;
+    font-family: 'Ferry', normal;
+    font-weight: bold;
+    color: #fff;
+    font-size: 3vw;
+    text-align: left;
+    width: 30vw;
+}
+
+.game {
+    width: 33.5vw;
+    height: 4.5vw;
+    display: block;
+    padding: 1.3vw;
+    text-align: center;
+    font-family: 'Montserat', black;
+    background-color: #ff0000;
+    border-radius: 5px;
+    top: 25vw;
+    left: 40.5vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+    transition: all 0.4s;
+    outline: none !important;
+    border: none;
+    text-decoration: none;
+}
